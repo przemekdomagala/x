@@ -1,0 +1,22 @@
+#####insecure auth - cookies
+
+generalnie do decode z base64 bity na stringa i przerobka a potem w druga
+strone
+
+#######sql inject
+'or '1'='1 i jazda
+
+#####XSS Stored
+<script>webgoat.customjs.phoneHome()</script>
+
+#####CSRF
+html z innego miejsca
+albo wystawianie linku typu
+<a href="http://bank.com/transfer?account_number_from=123456789&account_nu>
+czy tam get i linkacz
+
+#####insecure direct blabla
+zapik
+
+####authy
+pewnie cos w html bedzie
